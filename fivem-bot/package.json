@@ -1,0 +1,18 @@
+{
+  "name": "eternal-bot",
+  "version": "1.0.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "libsodium-wrappers": "^0.7.13",
+    "opusscript": "^0.0.8",
+    "better-sqlite3": "^11.3.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
