@@ -2,10 +2,11 @@ FROM node:20
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+# Dosyaları fivem-bot alt klasöründen çekmesini açıkça söylüyoruz
+COPY fivem-bot/package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY fivem-bot/ .
 
 CMD [ "node", "index.js" ]
