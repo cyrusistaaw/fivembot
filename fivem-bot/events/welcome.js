@@ -79,7 +79,7 @@ module.exports = {
 
             // --- 3. KULLANICIYA ÖZEL DM MESAJI ---
             try {
-                await member.send(`Merhaba **${member.user.username}**, **Eternal Family** sunucusuna hoş geldin! Kayıt olmak için yetkililerimizi bekleyebilirsin. 🛡️`);
+                await member.send(`Merhaba **${member.user.username}**, **Whitmore Family** sunucusuna hoş geldin! Kayıt olmak için yetkililerimizi bekleyebilirsin. 🛡️`);
             } catch (e) {
                 // DM kapalıysa hata vermesin
             }
