@@ -147,7 +147,7 @@ client.once('ready', async () => {
 
     client.user.setPresence({
         activities: [{
-            name: 'Developed By CyrusFix',
+            name: 'Cyrus🤍Beyza',
             type: ActivityType.Streaming,
             url: 'https://www.twitch.tv/cyrusfix'
         }],
