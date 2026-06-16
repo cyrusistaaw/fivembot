@@ -18,7 +18,7 @@ module.exports = {
         );
 
         const embed = new EmbedBuilder()
-            .setTitle('⚔️ Eternal Family Kayıt Merkezi')
+            .setTitle('⚔️ Whitmore Family Kayıt Merkezi')
             .setDescription(`Aramıza hoş geldiniz! Başvuru yapmak için butona basın.\n\n📊 **Üye Sayısı:** \`${interaction.guild.memberCount}\``)
             .setColor('#8b0000');
 
